@@ -1,0 +1,12 @@
+<div class="wonder-thumbnail" data-wonder-title="{{ title }}">
+  <button
+    class="wonder-thumbnail__content reset-button {{ imageShape ? "wonder-thumbnail__content--" ~ imageShape : '' }}"
+    aria-label="Open Modal"
+  >
+    <picture>
+      <source srcset="{{ imageWebPSrc }}" type="image/webp">
+      <source srcset="{{ imageSrc }}" type="image/jpeg">
+      <img src="{{ imageSrc }}" alt="{{ imageAlt }}">
+    </picture>
+  </button>
+</div>

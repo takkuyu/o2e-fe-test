@@ -1,0 +1,12 @@
+{# Modal description for screenreaders #}
+{% set modalDescription = 'Beginning of dialog window. It begins with a heading 2 about title of the dialog. Escape will cancel and close the window.'|t %}
+
+<div class="wonder-overlay">
+	<div class="container">
+		<h2 id="modalTitle" class="wonder-overlay__title"></h2>
+		<p id="modalDescription" class="visually-hidden">{{ modalDescription }}</p>
+    <div class="wonder-overlay__image">
+      <img src="" alt="" >
+    </div>
+	</div>
+</div>

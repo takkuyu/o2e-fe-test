@@ -1,0 +1,36 @@
+<div class="wonders-listing">
+  <div class="container">
+    <div class="wonders-listing__title">
+      <h1>{{ "Wonders of the World"|t }}</h1>
+    </div>
+    <div class="wonders-listing__content">
+      {% include "@molecules/wonder-thumbnail/wonder-thumbnail.twig" with {
+        "title": "Machu Picchu"|t,
+        "imageAlt": "Scenery of Machu Picchu"|t,
+        "imageSrc": base_path ~ directory ~ "/images/wonder_machu-picchu.jpg",
+        "imageWebPSrc": base_path ~ directory ~ "/images/wonder_machu-picchu.webp",
+      } %}
+      {% include "@molecules/wonder-thumbnail/wonder-thumbnail.twig" with {
+        "title": "Taj Mahal"|t,
+        "imageAlt": "Scenery of Taj Mahal"|t,
+        "imageSrc": base_path ~ directory ~ "/images/wonder_taj-mahal.jpeg",
+        "imageWebPSrc": base_path ~ directory ~ "/images/wonder_taj-mahal.webp",
+        "imageShape": "triangle"
+      } %}
+      {% include "@molecules/wonder-thumbnail/wonder-thumbnail.twig" with {
+        "title": "Colosseo"|t,
+        "imageAlt": "Scenery of Colosseo"|t,
+        "imageSrc": base_path ~ directory ~ "/images/wonder_colosseo.jpeg",
+        "imageWebPSrc": base_path ~ directory ~ "/images/wonder_colosseo.webp",
+        "imageShape": "circle"
+      } %}
+      {% include "@molecules/wonder-thumbnail/wonder-thumbnail.twig" with {
+        "title": "Petra"|t,
+        "imageAlt": "Scenery of Petra"|t,
+        "imageSrc": base_path ~ directory ~ "/images/wonder_petra.jpg",
+        "imageWebPSrc": base_path ~ directory ~ "/images/wonder_petra.webp",
+        "imageShape": "rectangle"
+      } %}
+    </div>
+  </div>
+</div>

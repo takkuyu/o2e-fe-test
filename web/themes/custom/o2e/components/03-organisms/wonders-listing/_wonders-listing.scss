@@ -1,0 +1,23 @@
+.wonders-listing {
+  padding: $spacer-xlg 0;
+
+  @include breakpoint(md) {
+    padding: $spacer-xxlg 0;
+  }
+
+  &__title {
+    text-align: center;
+    color: $white;
+    margin-bottom: $spacer-xlg;
+
+    @include breakpoint(md) {
+      margin-bottom: $spacer-xlg * 2;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,21 @@
+name: O2E
+type: theme
+description: An O2E Drupal theme.
+core_version_requirement: ^8 || ^9 || ^10
+base theme: stable9
+
+# Defines libraries group in which we can add css/js.
+libraries:
+  - o2e/base
+
+# Components
+components:
+  namespaces:
+    atoms:
+      - components/01-atoms
+    molecules:
+      - components/02-molecules
+    organisms:
+      - components/03-organisms
+    templates:
+      - components/04-templates

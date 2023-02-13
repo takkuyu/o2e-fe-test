@@ -1,0 +1,9 @@
+<main role="main" aria-hidden="false">
+	{% include "@organisms/wonders-listing/wonders-listing.twig" %}
+</main>
+
+{% embed "@organisms/modal/modal.twig" %}
+	{% block content %}
+		{% include "@molecules/wonder-overlay/wonder-overlay.twig" %}
+	{% endblock %}
+{% endembed %}

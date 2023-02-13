@@ -1,0 +1,22 @@
+/**
+ * Typography
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $primary-font;
+  font-weight: $font-weight-bold;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: $font-size-base * 1.75;
+
+  @include breakpoint(md) {
+    font-size: $font-size-base * 2.25;
+  }
+}

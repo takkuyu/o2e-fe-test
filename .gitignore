@@ -10,6 +10,9 @@
 /web/sites/*/tmp
 /web/sites/*/cache
 
+# Local dev specific setting files
+/web/sites/default/settings.local.php
+
 # Ignore drupal core (if not versioning drupal sources)
 /web/vendor
 /web/core
@@ -66,3 +69,7 @@
 .rules
 .editorconfig
 .gitattributes
+
+# User-specific stuff:
+.idea/
+.vscode/

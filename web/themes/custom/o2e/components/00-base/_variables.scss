@@ -1,0 +1,51 @@
+/**
+ * Theme color
+ */
+$primary: #0197e8;
+$white: #fff;
+$black: #0b0b0b;
+// Body settings
+$body-bg: $primary;
+
+/**
+ * Spacing
+ */
+$spacer: 1rem;
+$spacers: (
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 3
+);
+// Aliases for easy use
+$spacer-xs: map-get($spacers, 1);
+$spacer-sm: map-get($spacers, 2);
+$spacer-md: map-get($spacers, 3);
+$spacer-lg: map-get($spacers, 4);
+$spacer-xlg: map-get($spacers, 5);
+$spacer-xxlg: map-get($spacers, 6);
+
+/**
+ * Fonts
+ */
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-size-base: 1rem;
+$primary-font: Verdana, Arial, Tahoma, sans-serif;
+
+/**
+ * Breakpoints
+ */
+$breakpoints: (
+  sm: '(min-width: 576px)',
+  md: '(min-width: 768px)',
+  lg: '(min-width: 992px)',
+  xl: '(min-width: 1200px)',
+);
+
+/**
+ * Interface
+ */
+$outline: 2px dotted;

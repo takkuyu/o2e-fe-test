@@ -1,0 +1,7 @@
+base:
+  version: VERSION
+  js:
+    dist/js/main.min.js: { minified: true, preprocess: false }
+  css:
+    component:
+      dist/css/style.min.css: { weight: 50, minified: true, preprocess: false }
