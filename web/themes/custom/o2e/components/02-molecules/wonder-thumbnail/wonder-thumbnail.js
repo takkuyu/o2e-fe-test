@@ -18,6 +18,7 @@ const wonderThumbnail = (function () {
       const wonderTitle = thumbnail.dataset.wonderTitle;
       const thumbnailButton = thumbnail.querySelector("button");
       const wonderImage = thumbnailButton.querySelector("img");
+      const wonderImageAlt = wonderImage.alt;
       const currentSrc = wonderImage.currentSrc;
       const wonderImageSrc = currentSrc ? currentSrc : wonderImage.src;
 
@@ -25,6 +26,7 @@ const wonderThumbnail = (function () {
         // Update modal title and image.
         modalTitle.innerText = wonderTitle;
         modalImage.src = wonderImageSrc;
+        modalImage.alt = wonderImageAlt;
         // Open Overlay.
         modal.openModal();
         currentThumbnail = index;
@@ -34,8 +36,9 @@ const wonderThumbnail = (function () {
     closeModalBtn.addEventListener("click", () => {
       modal.closeModal();
       // Unset modal title and image.
-      modalTitle.innerText = "";
-      modalImage.src = "";
+      modalTitle.innerHTML = "&nbsp;";
+      modalImage.src = "#";
+      modalImage.alt = "#";
       // Restore focus to the previously focused thumbnail.
       wonderThumbnails[currentThumbnail].querySelector("button").focus();
     });

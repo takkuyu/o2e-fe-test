@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wonders of the World</title>
-    <meta name="description" content="Wonders of the World">
-    <meta name="keywords" content="Wonder, World, Scenery">
-    <meta name="author" content="Takaya Hirose">
+    <meta name="description" content="Wonders of the World" />
+    <meta name="keywords" content="Wonder, World, Scenery" />
+    <meta name="author" content="Takaya Hirose" />
     <link rel="stylesheet" media="all" href="../dist/css/style.min.css" />
   </head>
   <body>
-    <main role="main" aria-hidden="false">
+    <main aria-hidden="false">
       <div class="wonders-listing">
         <div class="container">
           <div class="wonders-listing__title">
@@ -19,38 +19,87 @@
           </div>
           <div class="wonders-listing__content">
             <div class="wonder-thumbnail" data-wonder-title="Machu Picchu">
-              <button class="wonder-thumbnail__content reset-button">
-                <img
-                  src="../images/wonder_machu-picchu.jpg"
-                  alt="Scenery of Machu Picchu"
-                />
+              <button
+                class="wonder-thumbnail__content reset-button"
+                aria-label="Open Modal"
+              >
+                <picture>
+                  <source
+                    srcset="../images/wonder_machu-picchu.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="../images/wonder_machu-picchu.jpg"
+                    type="image/jpeg"
+                  />
+                  <img
+                    src="../images/wonder_machu-picchu.jpg"
+                    alt="Scenery of Machu Picchu"
+                  />
+                </picture>
               </button>
             </div>
             <div class="wonder-thumbnail" data-wonder-title="Taj Mahal">
               <button
                 class="wonder-thumbnail__content reset-button wonder-thumbnail__content--triangle"
+                aria-label="Open Modal"
               >
-                <img
-                  src="../images/wonder_taj-mahal.jpeg"
-                  alt="Scenery of Taj Mahal"
-                />
+                <picture>
+                  <source
+                    srcset="../images/wonder_taj-mahal.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="../images/wonder_taj-mahal.jpeg"
+                    type="image/jpeg"
+                  />
+                  <img
+                    src="../images/wonder_taj-mahal.jpeg"
+                    alt="Scenery of Taj Mahal"
+                  />
+                </picture>
               </button>
             </div>
             <div class="wonder-thumbnail" data-wonder-title="Colosseo">
               <button
                 class="wonder-thumbnail__content reset-button wonder-thumbnail__content--circle"
+                aria-label="Open Modal"
               >
-                <img
-                  src="../images/wonder_colosseo.jpeg"
-                  alt="Scenery of Colosseo"
-                />
+                <picture>
+                  <source
+                    srcset="../images/wonder_colosseo.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="../images/wonder_colosseo.jpeg"
+                    type="image/jpeg"
+                  />
+                  <img
+                    src="../images/wonder_colosseo.jpeg"
+                    alt="Scenery of Colosseo"
+                  />
+                </picture>
               </button>
             </div>
             <div class="wonder-thumbnail" data-wonder-title="Petra">
               <button
                 class="wonder-thumbnail__content reset-button wonder-thumbnail__content--rectangle"
+                aria-label="Open Modal"
               >
-                <img src="../images/wonder_petra.jpg" alt="Scenery of Petra" />
+                <picture>
+                  <source
+                    srcset="../images/wonder_petra.webp"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="../images/wonder_petra.jpg"
+                    type="image/jpeg"
+                  />
+                  <img
+                    src="../images/wonder_petra.jpg"
+                    alt="Scenery of Petra"
+                  />
+                </picture>
               </button>
             </div>
           </div>
@@ -66,17 +115,19 @@
       aria-describedby="modalDescription"
       style="display: none"
     >
-      <button class="close-modal-btn reset-button"></button>
+      <button
+        class="close-modal-btn reset-button"
+        aria-label="Close Modal"
+      ></button>
       <div class="wonder-overlay">
         <div class="container">
-          <h2 id="modalTitle" class="wonder-overlay__title"></h2>
+          <h2 id="modalTitle" class="wonder-overlay__title">&nbsp;</h2>
           <p id="modalDescription" class="visually-hidden">
-            Beginning of dialog window. It begins with a heading 1 called
-            "Registration Form". Escape will cancel and close the window. This
-            form does not collect any actual information.
+            Beginning of dialog window. It begins with a heading 2 about title
+            of the dialog. Escape will cancel and close the window.
           </p>
           <div class="wonder-overlay__image">
-            <img src="" alt="" />
+            <img src="#" alt="#" />
           </div>
         </div>
       </div>
