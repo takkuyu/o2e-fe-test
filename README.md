@@ -11,9 +11,10 @@
 1. Clone the Git repository to your local machine (`git clone ... `).
 2. Run `composer install --no-interaction -vvv`
 3. Initialize Lando environment (`lando start`)
-4. Install Drupal site (`lando drush site:install`)
-5. List information about this app (`lando info`)
-6. Visit https://o2e-fe-test.lndo.site/ to access the app.
+4. Import database in the backup folder (`lando db-import backup/local.sql.gz`)
+5. Clear cache (`lando drush cr`)
+6. List information about this app (`lando info`)
+7. Visit https://o2e-fe-test.lndo.site/ to access the app.
 
 To login, run "lando drush uli" that generates a one-time login URL.
 ## 2. Set up the custom theme
