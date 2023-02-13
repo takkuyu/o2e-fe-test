@@ -1,4 +1,4 @@
-uuid: 4dfe09c6-820c-4a62-b56d-ed64ce362bec
+uuid: 90ff412d-86e3-43fa-8ba1-d2a70be50abd
 langcode: en
 status: false
 dependencies:
@@ -10,7 +10,7 @@ _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
 id: o2e_powered
 theme: o2e
-region: content
+region: sidebar_first
 weight: 0
 provider: null
 plugin: system_powered_by_block

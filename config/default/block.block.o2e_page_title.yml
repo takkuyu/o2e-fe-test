@@ -1,4 +1,4 @@
-uuid: 3d57de8e-09f5-401a-b852-42dc592beddc
+uuid: 9f07ab37-ea07-4d5a-9a35-089115829a5b
 langcode: en
 status: false
 dependencies:
@@ -8,7 +8,7 @@ _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
 id: o2e_page_title
 theme: o2e
-region: content
+region: sidebar_first
 weight: -5
 provider: null
 plugin: page_title_block

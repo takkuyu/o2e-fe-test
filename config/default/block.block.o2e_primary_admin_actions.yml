@@ -1,4 +1,4 @@
-uuid: 4d4bd3aa-73d3-496a-8eff-1e97ad82fc2d
+uuid: 235b345a-30fc-4d71-bc6d-d24b4ac48ff5
 langcode: en
 status: false
 dependencies:
@@ -8,7 +8,7 @@ _core:
   default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
 id: o2e_primary_admin_actions
 theme: o2e
-region: content
+region: highlighted
 weight: -5
 provider: null
 plugin: local_actions_block

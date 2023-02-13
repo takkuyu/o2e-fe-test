@@ -1,4 +1,4 @@
-uuid: cacdb763-256d-4281-8e0b-f67785194133
+uuid: 0f578d0e-1314-4114-af70-9b24691fde43
 langcode: en
 status: false
 dependencies:
@@ -10,7 +10,7 @@ _core:
   default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: o2e_help
 theme: o2e
-region: content
+region: sidebar_first
 weight: 0
 provider: null
 plugin: help_block

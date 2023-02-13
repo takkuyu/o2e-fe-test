@@ -1,4 +1,4 @@
-uuid: dcfdd8e6-49d5-40e4-8fae-7b2bbfc2a88d
+uuid: 9ff5e48d-cfaa-41a3-8fc8-b33e16b2b833
 langcode: en
 status: false
 dependencies:
@@ -10,7 +10,7 @@ _core:
   default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
 id: o2e_site_branding
 theme: o2e
-region: content
+region: header
 weight: 0
 provider: null
 plugin: system_branding_block

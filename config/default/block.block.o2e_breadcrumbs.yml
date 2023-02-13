@@ -1,4 +1,4 @@
-uuid: 84b9dc41-782e-41a0-b180-3d62f3c851c4
+uuid: b0688945-3749-46c3-b2c3-9174d08cb56a
 langcode: en
 status: false
 dependencies:
@@ -10,7 +10,7 @@ _core:
   default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
 id: o2e_breadcrumbs
 theme: o2e
-region: content
+region: breadcrumb
 weight: 0
 provider: null
 plugin: system_breadcrumb_block

@@ -1,4 +1,4 @@
-uuid: f8075d70-e7c2-4219-9ce5-e97834360368
+uuid: a53d0f2e-7c8f-4809-8964-12057034d67d
 langcode: en
 status: false
 dependencies:
@@ -10,7 +10,7 @@ _core:
   default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
 id: o2e_messages
 theme: o2e
-region: content
+region: highlighted
 weight: -5
 provider: null
 plugin: system_messages_block

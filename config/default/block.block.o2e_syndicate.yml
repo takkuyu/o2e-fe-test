@@ -1,4 +1,4 @@
-uuid: 8e7995f5-9d0c-4346-80ff-562dd39d9f00
+uuid: 6eee5d24-81e4-43aa-8a67-a3ebb64c89e3
 langcode: en
 status: false
 dependencies:
@@ -10,7 +10,7 @@ _core:
   default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
 id: o2e_syndicate
 theme: o2e
-region: content
+region: sidebar_first
 weight: 0
 provider: null
 plugin: node_syndicate_block

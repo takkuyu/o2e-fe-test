@@ -1,4 +1,4 @@
-uuid: d3e8a5d6-a931-412d-b995-a0d1ac134fba
+uuid: 21d5a324-365c-41d0-ad53-d58a6267ade6
 langcode: en
 status: false
 dependencies:
@@ -10,7 +10,7 @@ _core:
   default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
 id: o2e_search_form_narrow
 theme: o2e
-region: content
+region: primary_menu
 weight: -4
 provider: null
 plugin: search_form_block

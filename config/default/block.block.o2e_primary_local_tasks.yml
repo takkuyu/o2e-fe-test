@@ -1,4 +1,4 @@
-uuid: 7dbeb799-73be-4b9f-bd08-e2f17e82f42d
+uuid: bb3a646a-2ffd-4e16-8585-9662cb0ff37a
 langcode: en
 status: false
 dependencies:
@@ -8,7 +8,7 @@ _core:
   default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
 id: o2e_primary_local_tasks
 theme: o2e
-region: content
+region: highlighted
 weight: -4
 provider: null
 plugin: local_tasks_block
