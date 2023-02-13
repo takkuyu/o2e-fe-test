@@ -1,0 +1,22 @@
+uuid: 4dfe09c6-820c-4a62-b56d-ed64ce362bec
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - o2e
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: o2e_powered
+theme: o2e
+region: content
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: d3e8a5d6-a931-412d-b995-a0d1ac134fba
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - o2e
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: o2e_search_form_narrow
+theme: o2e
+region: content
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

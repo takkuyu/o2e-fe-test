@@ -1,0 +1,22 @@
+uuid: 84b9dc41-782e-41a0-b180-3d62f3c851c4
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - o2e
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: o2e_breadcrumbs
+theme: o2e
+region: content
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

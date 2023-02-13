@@ -1,0 +1,22 @@
+uuid: cacdb763-256d-4281-8e0b-f67785194133
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - o2e
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: o2e_help
+theme: o2e
+region: content
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

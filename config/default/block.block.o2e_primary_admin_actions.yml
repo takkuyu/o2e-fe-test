@@ -1,0 +1,20 @@
+uuid: 4d4bd3aa-73d3-496a-8eff-1e97ad82fc2d
+langcode: en
+status: false
+dependencies:
+  theme:
+    - o2e
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: o2e_primary_admin_actions
+theme: o2e
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

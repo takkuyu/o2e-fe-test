@@ -1,0 +1,22 @@
+uuid: e3565afd-13de-4aa8-9632-ddd6582c29b8
+langcode: en
+status: false
+dependencies:
+  theme:
+    - o2e
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: o2e_secondary_local_tasks
+theme: o2e
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

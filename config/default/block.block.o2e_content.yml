@@ -1,0 +1,22 @@
+uuid: 57807fb8-00ff-4447-9350-82723a753841
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - o2e
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: o2e_content
+theme: o2e
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

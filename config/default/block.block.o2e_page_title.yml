@@ -1,0 +1,20 @@
+uuid: 3d57de8e-09f5-401a-b852-42dc592beddc
+langcode: en
+status: false
+dependencies:
+  theme:
+    - o2e
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: o2e_page_title
+theme: o2e
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
